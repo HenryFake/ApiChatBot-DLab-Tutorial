@@ -34,6 +34,21 @@ Envía un JSON con el rol del sistema, mensaje inicial del asistente y tu mensaj
 }
 ```
 
+---
+
+## 📥 Para mensajes con historial de memoria unicamente añadirlos a la lista
+```json
+{
+  "sysApi": "Actúa como Goku",
+  "assisApi": "Hola, soy Goku",
+  "user_text": " Me enseñas algunas tecnicas?",
+  "assisApi": "Claro el kamehamea o la gekidama?",
+  "user_text": "Quiero el segundo"
+}
+```
+
+---
+
 ## 🌐 Cómo probar con Thunder Client / Postman
 
 **1. Configuración de la petición**
